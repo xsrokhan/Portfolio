@@ -29,7 +29,7 @@ return (
   animate="show"
   >
     <motion.li variants={item}><FaGithub className="contact_icon"/><a href="https://github.com/Montinyek" target="_blank" rel="noopener noreferrer">GitHub</a></motion.li>
-    <motion.li variants={item}><FaLinkedinIn className="contact_icon"/><a href="https://codepen.io/Montinyek" target="_blank" rel="noopener noreferrer">LinkedIn</a></motion.li>
+    <motion.li variants={item}><FaLinkedinIn className="contact_icon"/><a href="https://www.linkedin.com/in/khosrov-yavarifar-566812132/" target="_blank" rel="noopener noreferrer">LinkedIn</a></motion.li>
     <motion.li variants={item}><FaCodepen className="contact_icon"/><a href="https://codepen.io/Montinyek" target="_blank" rel="noopener noreferrer">CodePen</a></motion.li>
     <motion.li variants={item}>xsrokhan@gmail.com</motion.li>
   </motion.ul>
