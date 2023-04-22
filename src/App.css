@@ -81,6 +81,7 @@ body::-webkit-scrollbar {
   list-style: none;
   padding: 0;
   color: whitesmoke;
+  margin-bottom: 6rem;
 }
 
 .contact > li {
@@ -134,6 +135,11 @@ a {
     font-size: 2rem;
     letter-spacing: 0.2rem;
   }
+
+  .contact > li:last-child {
+    font-size: 1.5rem;
+  }
+
   p {
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
@@ -143,10 +149,6 @@ a {
 }
 
 @media (max-width: 420px) {
-  .contact > li:last-child {
-    font-size: 1.5rem;
-  }
-
   .typeAnimation {
     font-size: 1.7rem;
   }
