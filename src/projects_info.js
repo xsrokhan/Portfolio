@@ -38,7 +38,7 @@ export const projects = [
    {
       description: 'A digital library, serving as a personal collection of Data Structures and Algorithms problems and solutions, searchable by title and tags.',
       image: dsadepot,
-      stack: [<FaReact />, <FaCss3 />],
+      stack: [<FaReact />, <FaCss3 />, <FaNodeJs />, <SiMongodb />],
       code: ['Code', 'https://github.com/Montinyek/DSA_Depot_client'],
       demo: ['Demo', 'https://www.dsadepot.com/'],
    },
