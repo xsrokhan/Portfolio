@@ -35,7 +35,7 @@ const Homepage = () => {
         sequence={[
           'Developer', 
           2500, 
-          'CS student', 
+          'SE student', 
           2500, 
           'Language geek', 
           2500
