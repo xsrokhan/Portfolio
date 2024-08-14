@@ -57,6 +57,10 @@ body::-webkit-scrollbar {
   height: 42px;
 }
 
+.current_page {
+  animation: glow 2s forwards;
+}
+
 /* end of custom dimensions */
 
 .homepage, .about {
@@ -129,6 +133,12 @@ a {
   text-decoration: none;
 }
 
+@media (min-width: 1190px) {
+  .projects {
+    min-width: 1160px;
+  }
+}
+
 @media (max-width: 700px) {
   .contact > li {
     margin-bottom: 1.5rem;
@@ -176,5 +186,14 @@ a {
   svg {
     width: 40px;
     height: 40px;
+  }
+}
+
+@keyframes glow {
+  0% {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+  }
+  100% {
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 1));
   }
 }

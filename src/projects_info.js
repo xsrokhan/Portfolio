@@ -1,31 +1,18 @@
 
-import weather from './weather.png'
-import budget from './budget-app.png'
-import dsadepot from './dsa-depot.png'
-import lifechamp from './lifechamp.png'
+import hanziiseasy from './images/hanziiseasy.png'
+import dsadepot from './images/dsa-depot.png'
+import lifechamp from './images/lifechamp.png'
 import { FaNodeJs } from 'react-icons/fa'
 import { FaCss3 } from 'react-icons/fa'
 import { FaReact } from 'react-icons/fa'
-import { FaBootstrap } from 'react-icons/fa'
+import { FaPython } from 'react-icons/fa'
 import { SiMongodb } from '@icons-pack/react-simple-icons'
+import { SiTypescript } from "react-icons/si";
+import { SiFlask } from "react-icons/si";
 
 // img crop dimensions: {width 770px, height 450px} on https://www.iloveimg.com/crop-image
 
 export const projects = [
-   {
-      description: "This fully responsive weather app features a unique design and gradient backgrounds that change according to the current weather.",
-      image: weather,
-      stack: [<FaReact />, <FaCss3 />],
-      code: ['Code', 'https://github.com/Montinyek/Weather_app'],
-      demo: ['Demo', 'https://react-jxdthk.stackblitz.io'],
-   },
-   {
-      description: 'This app uses localStorage to keep track of your expenses in custom categories and provides a clear picture of your budget.',
-      image: budget,
-      stack: [<FaReact />, <FaBootstrap />],
-      code: ['Code', 'https://github.com/Montinyek/Budget_app'],
-      demo: ['Demo', 'https://montinyek.github.io/Budget_app/'],
-   },
    {
       description: 'A digital library, serving as a personal collection of Data Structures and Algorithms problems and solutions, searchable by title and tags.',
       image: dsadepot,
@@ -39,5 +26,12 @@ export const projects = [
       stack: [<FaReact />, <FaCss3 />, <FaNodeJs />, <SiMongodb />],
       code: ['Code', 'https://github.com/Montinyek/Lifechamp_client'],
       demo: ['Demo', 'https://lifechamp.net/'],
+   },
+   {
+      description: "An app for practicing Mandarin Chinese tones and characters, with a database of over 100 thousand words and 2500 most frequent characters.",
+      image: hanziiseasy,
+      stack: [<FaReact />, <SiTypescript />, <FaPython/>, <FaCss3 />, <SiFlask />],
+      code: ['Code', 'https://github.com/xsrokhan/Hanziiseasy_client'],
+      demo: ['Demo', 'https://hanziiseasy.com/'],
    }
 ]

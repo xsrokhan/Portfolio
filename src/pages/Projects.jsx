@@ -17,6 +17,7 @@ const Projects = () => {
           code={p.code}
           demo={p.demo}
           i={i}
+          key={i}
         />
       ))}
     </div>

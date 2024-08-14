@@ -13,7 +13,7 @@ const ProjectsCard = ({img, description, stack, code, demo, i}) => {
                 <img className="img" src={img} alt="project img"/>
                 <div className="description">{description}</div>
                 <div className="stack">
-                    {stack.map(s => <div className="stack-inner">{s}</div>)}
+                    {stack.map((s, i) => <div key={i} className="stack-inner">{s}</div>)}
                 </div>
                 <div className="links">
                     <a className="links-inner" href={code[1]} target="_blank" rel="noopener noreferrer">{code[0]}</a>
